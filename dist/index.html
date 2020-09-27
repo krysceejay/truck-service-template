@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Truck Services</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <nav class="flex justify-around items-center bg-gray-100 sticky top-0 z-10">
+      <div>
+        <img class="h-8" src="img/logo.png" alt="Workcation" />
+      </div>
+
+      <ul class="flex items-center uppercase text-sm font-semibold">
+        <li
+          class="px-4 py-5 border-b-2 border-brand-blue hover:border-brand-blue"
+        >
+          <a href="#">Home</a>
+        </li>
+        <li
+          class="px-4 py-5 border-b-2 border-gray-100 hover:border-brand-blue"
+        >
+          <a href="#">About</a>
+        </li>
+        <li
+          class="px-4 py-5 border-b-2 border-gray-100 hover:border-brand-blue"
+        >
+          <a href="#">Services</a>
+        </li>
+        <li
+          class="px-4 py-5 border-b-2 border-gray-100 hover:border-brand-blue"
+        >
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="slide-show-container" class="relative">
+      <div
+        id="slideshow"
+        class="relative overflow-hidden w-screen h-screen -mt-16 text-white"
+      >
+        <div
+          class="absolute inset-0 w-full h-full transition-opacity slide active-slide"
+          style="
+            background: url('./img/slide1.jpg') no-repeat center;
+            background-size: cover;
+          "
+        >
+          <div
+            class="w-full bg-overlay-color h-full flex flex-col justify-center items-center text-center content"
+          >
+            <h1 class="text-7xl uppercase font-extrabold tracking-wider">
+              Trucking
+            </h1>
+            <p class="text-3xl leading-5 tracking-wider">
+              Powerful Logistic Solution
+            </p>
+            <a
+              href="#"
+              class="inline-block bg-brand-yellow px-10 py-3 transition-all cursor-pointer tracking-wider mt-8 rounded-full leading-5 uppercase text-sm font-semibold"
+              >Get Started</a
+            >
+          </div>
+        </div>
+        <div
+          class="hidden slide"
+          style="
+            background: url('./img/slide2.jpg') no-repeat center;
+            background-size: cover;
+          "
+        >
+          <div class="content">
+            <h1>Big Deal</h1>
+            <p>Get Best Offer up to 20%</p>
+            <a href="allitems.html" class="btn-shop-now">Shop Now</a>
+          </div>
+        </div>
+        <div
+          class="hidden slide"
+          style="
+            background: url('./img/slide3.jpg') no-repeat center;
+            background-size: cover;
+          "
+        >
+          <div class="content">
+            <h1>Big Save</h1>
+            <p>Get Flat 10% Back</p>
+            <a href="allitems.html" class="btn-shop-now">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="what" class="mt-16">
+      <div class="container">
+        <div>
+          <h2 class="section-title"><span class="">What</span> We Do</h2>
+          <p class="lead">TAILORED LOGISTIC SERVICES</p>
+        </div>
+        <div class="grid grid-cols-2 gap-8 mt-16">
+          <div class="flex bg-gray-100 p-8 rounded-sm h-full">
+            <div class="icon flex-none w-32">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="text-brand-yellow"
+              >
+                <path
+                  fill="#fff"
+                  d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"
+                />
+              </svg>
+            </div>
+            <div class="content pl-6">
+              <h3 class="text-xl font-bold tracking-wide capitalize leading-6">
+                Contract logistics
+              </h3>
+              <p class="mt-3 text-sm leading-5">
+                Need custom logistic service? We got it covered. From overland,
+                air, rail and sea transportation. Fast, safe and accurate
+                shipment provided all over the globe.
+              </p>
+            </div>
+          </div>
+          <div class="flex bg-gray-100 p-8 rounded-sm h-full">
+            <div class="icon flex-none w-32">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="text-brand-yellow"
+              >
+                <path
+                  fill="#fff"
+                  d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"
+                />
+              </svg>
+            </div>
+            <div class="content pl-6">
+              <h3 class="text-xl font-bold tracking-wide capitalize leading-6">
+                Contract logistics
+              </h3>
+              <p class="mt-3 text-sm leading-5">
+                Need custom logistic service? We got it covered. From overland,
+                air, rail and sea transportation. Fast, safe and accurate
+                shipment provided all over the globe.
+              </p>
+            </div>
+          </div>
+          <div class="flex bg-gray-100 p-8 rounded-sm h-full">
+            <div class="icon flex-none w-32">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="text-brand-yellow"
+              >
+                <path
+                  fill="#fff"
+                  d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"
+                />
+              </svg>
+            </div>
+            <div class="content pl-6">
+              <h3 class="text-xl font-bold tracking-wide capitalize leading-6">
+                Contract logistics
+              </h3>
+              <p class="mt-3 text-sm leading-5">
+                Need custom logistic service? We got it covered. From overland,
+                air, rail and sea transportation. Fast, safe and accurate
+                shipment provided all over the globe.
+              </p>
+            </div>
+          </div>
+          <div class="flex bg-gray-100 p-8 rounded-sm h-full">
+            <div class="icon flex-none w-32">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="text-brand-yellow"
+              >
+                <path
+                  fill="#fff"
+                  d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"
+                />
+              </svg>
+            </div>
+            <div class="content pl-6">
+              <h3 class="text-xl font-bold tracking-wide capitalize leading-6">
+                Contract logistics
+              </h3>
+              <p class="mt-3 text-sm leading-5">
+                Need custom logistic service? We got it covered. From overland,
+                air, rail and sea transportation. Fast, safe and accurate
+                shipment provided all over the globe.
+              </p>
+            </div>
+          </div>
+
+          <!-- <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            fill="#fff"
+            d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"
+          />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1"
+            d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"
+          />
+        </svg> -->
+
+          <!-- <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+          />
+          <path
+            d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1v-5a1 1 0 00-.293-.707l-2-2A1 1 0 0015 7h-1z"
+          />
+        </svg> -->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

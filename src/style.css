@@ -1,0 +1,39 @@
+@tailwind base;
+
+@tailwind components;
+
+.container {
+  @apply max-w-6xl px-0 py-6 m-auto overflow-hidden;
+}
+
+.section-title {
+  @apply text-3xl block font-extrabold capitalize text-center text-gray-700 tracking-widest;
+}
+
+.lead {
+  @apply text-sm mb-2 text-center uppercase;
+}
+
+.btn {
+  @apply inline-block px-5 py-3 rounded-md shadow-lg bg-indigo-500 text-white uppercase tracking-wider text-sm font-semibold;
+}
+
+.btn:hover {
+  @apply bg-indigo-300 text-gray-800;
+}
+
+.btn:focus {
+  @apply outline-none shadow-outline;
+}
+
+.btn:active {
+  @apply bg-indigo-600;
+}
+
+@screen sm {
+  .btn {
+    @apply text-base;
+  }
+}
+
+@tailwind utilities;
