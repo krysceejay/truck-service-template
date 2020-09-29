@@ -2,6 +2,10 @@
 
 @tailwind components;
 
+* {
+  @apply box-border m-0 p-0;
+}
+
 .container {
   @apply max-w-6xl px-0 py-6 m-auto overflow-hidden;
 }
@@ -12,6 +16,18 @@
 
 .lead {
   @apply text-sm mb-2 text-center uppercase;
+}
+
+.sub-form {
+  @apply inline-block bg-form-color relative rounded leading-none mb-4;
+}
+
+.form-sub {
+  @apply inline-block outline-none text-sm text-white bg-transparent w-full h-10 rounded box-border py-0 pl-4;
+}
+
+.submit {
+  @apply inline-block absolute top-0 right-0 w-10 h-10 bg-brand-blue text-center m-0 p-0 outline-none border-0 cursor-pointer rounded-l-none rounded-r;
 }
 
 .btn {
